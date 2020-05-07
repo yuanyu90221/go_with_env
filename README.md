@@ -16,3 +16,4 @@ import (
 是指load init function 其他 function都不被loading 進來
 
 因此須除了 特殊auto load的需求 大部分不建議這樣做
+[godotenv repo](https://github.com/joho/godotenv)

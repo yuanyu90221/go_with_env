@@ -4,11 +4,11 @@ import (
 	"log"
 	"os"
 
-	"github.com/joho/godotenv"
+	_ "github.com/joho/godotenv/autoload"
 )
 
 func main() {
-	godotenv.Load()
+	// godotenv.Load()
 	// if err != nil {
 	// 	log.Fatal("Error Loading .env file")
 	// }
